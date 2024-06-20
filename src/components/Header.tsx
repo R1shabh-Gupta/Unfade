@@ -5,9 +5,9 @@ const Header = () => {
     <header className="flex justify-between items-center w-full mt-5 sm:px-4 px-2">
       <Link
         href="/"
-        className="sm:text-3xl text-xl font-bold ml-2 tracking-tight"
+        className="sm:text-3xl text-xl font-extrabold ml-2 tracking-tight font-logo"
       >
-        Unfade
+        unf<span className="underline">ade</span>
       </Link>
 
       <div className="flex gap-6 items-center">
